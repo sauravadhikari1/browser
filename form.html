@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .google{
+            height:100vh;
+            width: 100%;
+            background-image: url("img4.webp");
+            background-repeat: no-repeat;
+            display: flex;
+            background-size: cover;
+            flex-direction: column;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .google form{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+        }
+        input{
+            margin: 50px;
+        }
+        
+        .sercheng{
+            font-size: 70px;
+            width: 70vh;
+            text-align: center;
+            
+        
+        }
+        .search{
+        width: 70vw;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid  rgb(179, 80, 255);
+        font-size: 30px;
+    }
+    #submit{
+        height: 50px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: rgb(179, 80, 255);
+        font-size: 30px;
+        color: white;
+
+    }
+    .gif{
+        height: 50vh;
+    }
+    .gif img{
+        height: 100px;
+        width: 100px;
+    border-radius: 100%;
+    margin-top: 130px;
+    }
+    #submit:hover{
+        height:80px;
+        width: 250px;
+        font-weight:bolder;
+        opacity: 1;
+    }
+    input[type="text"]{
+
+        padding-left: 10px;
+        height: 50px;
+        width: 70vh;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    label{
+        /* border: 1px solid black; */
+        color:rgb(234, 220, 245);
+       
+        
+    
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="google">
+        <div class="gif">
+            <img src="giphy2.webp" alt="">
+        </div>
+
+        <Form action="https://www.youtube.com" method="get" class ="form">
+            <label for="search" class="sercheng">Search Baba</label>
+            <input type="text" class="search " name="q" >
+            <input type="submit" name="q" id="submit" >
+        </Form>
+    </div>
+</body>
+</html>
